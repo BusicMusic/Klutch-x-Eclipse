@@ -4,38 +4,45 @@ Author: Brendon Busic
 Start Date: 02/15/2017
 */
 html{
-	background-color: gray;
-	background-image: url("eclipse.jpg");
+	background-color: black;
+	background-image: url("eclipse2.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: 1920px 1300px;
-	border: 2px solid black;
-}
-@media(max-width){
-	
+	background-size: 1720px 1350px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
 }
 #topPort{
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.9;
 	border: 2px solid white;
 	margin-right: 50px;
 	margin-left: 50px;
-}
-div.emailLink{
+	float: top;
+	padding-right: 10px;
 	padding-left: 10px;
 }
-#emailLink, #contactLink{
-	text-shadow: 0px 0px 5px lime;
+#emailLink{
+	text-shadow: 0px 0px 5px rgb(0, 221, 225);
 }
 h1{
 	text-align: center;
-	color: rgb(255,191,0);
+	/*color: rgb(255,191,0);
+	text-shadow: 0px 0px 20px black;*/
+	
+	color: white;
+	text-shadow: 0px 0px 20px aqua;
+	background-image: url("particles.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 200px;
 }
-h3{
+#welcome{
 	text-align: center;
 	color: white;
-	text-shadow: 0px 0px 20px yellow;
+	text-shadow: 0px 0px 20px aqua;
 	
 	margin-left: 240px;
 	margin-right: 240px;
@@ -46,23 +53,26 @@ h2{
 h5{
 	text-align: center;
 	color: white;
-	text-shadow: 0px 0px 5px rgb(255,191,0);
+	/*text-shadow: 0px 0px 5px rgb(255,191,0);*/
+	text-shadow: 0px 0px 3px rgb(0, 221, 255);
 }
 a{
 	font-style:;
 	color:white;
 	text-shadow: none;
 	text-decoration: none;
+	font-size: 13pt;
 }
 a:hover{
 	color: white;
 	border-bottom:0.1px solid white;
 	font-style: italic;
 	text-shadow: none;
+	font-size: 13pt;
 }
 div.navCol{
 	color:white;
-	padding-right:10px;
+	padding-right:15px;
 	padding-left:10px;
 	padding-top:5px;
 	padding-bottom:5px;
@@ -72,36 +82,59 @@ div.navCol{
 	background-color: black;
 	float: left;
 	border: 2px solid white;
-	opacity: 0.5;
+	opacity: 0.8;
 	text-align: left;
-	margin-top: 59px;
 	margin-left:50px;
 }
-
+div.navCol a:hover{
+	color: white;
+	border-bottom:0.1px solid white;
+	font-style: italic;
+	text-shadow: none;
+	font-size: 10pt;
+}
+div.navCol a{
+	font-style:;
+	color:white;
+	text-shadow: none;
+	text-decoration: none;
+	font-size: 10pt;
+}
 div.content{
 	float: top;
-	margin-left: 200px;
+	margin-left: 230px;
 	margin-right: 50px;
 	color: white;
-	opacity: 0.7;
+	opacity: 0.8;
 	border: 2px solid white;
 	padding-left: 10px;
-	padding-right: 10px;
+	padding-right: 40px;
 	background-color: black;
-	text-shadow: 0px 0px 5px orange;
+	text-shadow: 0px 0px 5px teal;
 }
-table{
+/*table{
 	text-align:center;
 	color:white;
-	text-shadow: 0px 0px 5px orange;
+	text-shadow: 0px 0px 5px blue;
+}*/
+table{
+	text-align: center;
+	margin-right: 20px;
+	border-width: 1px;
+	border-style: none;
+	border-color: white;
+	border-collapse: collapse;
+	border-spacing: 0px 1px;
 }
-
-
+#column1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 #smallText{
 	font-size: 10pt;
 	color: white;
 	text-shadow: none;
-	margin-left: 15px;
+	/*margin-left: 15px;*/
 }
 #smallText2{
 	font-size: 10pt;
@@ -111,10 +144,10 @@ table{
 	text-align:center;
 }
 address{
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 	font-size: 7pt;
-	text-shadow: none;
+	text-shadow: 0px 0px 1px black;
 	text-align: center;
 	font-family: Helvetica;
 }
@@ -124,4 +157,74 @@ p{
 #link{
 	font-style: normal;
 	font-size: 17;
+}
+span{
+	text-shadow: none;
+	font-size: 8pt;
+	color: aqua;
+	text-align: center;
+	font-style: italic;
+}
+#listInfo{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 5px black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*
+START HERE
+• editiing the email info slightly
+• editing the time stamp format
+• Moving the welcome text to above the navCol and removing the margin-top from the style reference
+• adding padding to the topPort so the text is farther from the left/right border
+• trying to decide on a background image again
+• changed to green span color to aqua
+• changed the text shadows to match the background as needed
+• changed the email and kik contact info formatting, see below and edit above
+*/
+#xtra{
+	font-style: italic;
+	font-size: 10pt;
+	color: white;
+	opacity: 0.9;
+}
+#appOutline{
+	margin-left: 10px;
+}
+#timeStamp{
+	text-align: center;
+	font-variant: small-caps;
+	color: white;
+	opacity: 0.7;
+	text-shadow: 0px 0px 5px purple;
+	font-size: 7pt;
+	letter-spacing: 1px;
+	line-height: 0.1;
+}
+#contentIndent{
+	padding-left: 10px;
+}
+#red{
+	color: red;
+	text-shadow: 0px 0px 5px red;
+}
+#orange{
+	color: orange;
+	text-shadow: 0px 0px 5px orange;
+}
+#yellow{
+	color: yellow;
+	text-shadow: 0px 0px 5px yellow;
+}
+#green{
+	color: lime;
+	text-shadow: 0px 0px 5px lime;
+}
+#rowA{
+	
+}
+#rowB{
+	
 }
