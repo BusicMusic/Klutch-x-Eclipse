@@ -13,6 +13,7 @@ html{
 	border-top: 2px solid black;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
+	min-width: 800px;
 }
 #topPort{
 	background-color: black;
@@ -114,11 +115,6 @@ div.content{
 	background-color: black;
 	text-shadow: 0px 0px 5px teal;
 }
-/*table{
-	text-align:center;
-	color:white;
-	text-shadow: 0px 0px 5px blue;
-}*/
 table{
 	text-align: center;
 	margin-right: 20px;
@@ -175,17 +171,6 @@ span{
 	padding-left: 10px;
 	padding-right: 10px;
 }
-/*
-START HERE
-• editiing the email info slightly
-• editing the time stamp format
-• Moving the welcome text to above the navCol and removing the margin-top from the style reference
-• adding padding to the topPort so the text is farther from the left/right border
-• trying to decide on a background image again
-• changed to green span color to aqua
-• changed the text shadows to match the background as needed
-• changed the email and kik contact info formatting, see below and edit above
-*/
 #xtra{
 	font-style: italic;
 	font-size: 10pt;
