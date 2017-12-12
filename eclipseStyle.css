@@ -85,6 +85,8 @@ div.navCol{
 	opacity: 0.8;
 	text-align: left;
 	margin-left:50px;
+	position: sticky;
+	top: 10px;
 }
 div.navCol a:hover{
 	color: white;
