@@ -1,0 +1,127 @@
+/*
+Style Sheet for eclipse.html
+Author: Brendon Busic
+Start Date: 02/15/2017
+*/
+html{
+	background-color: gray;
+	background-image: url("eclipse.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 1920px 1300px;
+	border: 2px solid black;
+}
+@media(max-width){
+	
+}
+#topPort{
+	background-color: black;
+	opacity: 0.8;
+	border: 2px solid white;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+div.emailLink{
+	padding-left: 10px;
+}
+#emailLink, #contactLink{
+	text-shadow: 0px 0px 5px lime;
+}
+h1{
+	text-align: center;
+	color: rgb(255,191,0);
+}
+h3{
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 20px yellow;
+	
+	margin-left: 240px;
+	margin-right: 240px;
+}
+h2{
+	padding-left: 10px;
+}
+h5{
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 5px rgb(255,191,0);
+}
+a{
+	font-style:;
+	color:white;
+	text-shadow: none;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	border-bottom:0.1px solid white;
+	font-style: italic;
+	text-shadow: none;
+}
+div.navCol{
+	color:white;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size: 10pt;
+	display: inline-block;
+	text-decoration: none;
+	background-color: black;
+	float: left;
+	border: 2px solid white;
+	opacity: 0.5;
+	text-align: left;
+	margin-top: 59px;
+	margin-left:50px;
+}
+
+div.content{
+	float: top;
+	margin-left: 200px;
+	margin-right: 50px;
+	color: white;
+	opacity: 0.7;
+	border: 2px solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: black;
+	text-shadow: 0px 0px 5px orange;
+}
+table{
+	text-align:center;
+	color:white;
+	text-shadow: 0px 0px 5px orange;
+}
+
+
+#smallText{
+	font-size: 10pt;
+	color: white;
+	text-shadow: none;
+	margin-left: 15px;
+}
+#smallText2{
+	font-size: 10pt;
+	color: white;
+	text-shadow: none;
+	margin-left: 15px;
+	text-align:center;
+}
+address{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 7pt;
+	text-shadow: none;
+	text-align: center;
+	font-family: Helvetica;
+}
+p{
+	padding-right:7px;
+}
+#link{
+	font-style: normal;
+	font-size: 17;
+}
