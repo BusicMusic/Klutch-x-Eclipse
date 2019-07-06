@@ -94,14 +94,14 @@ div.navCol a:hover{
 	border-bottom:0.1px solid white;
 	font-style: italic;
 	text-shadow: none;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 div.navCol a{
 	font-style:;
 	color:white;
 	text-shadow: none;
 	text-decoration: none;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 div.content{
 	float: top;
